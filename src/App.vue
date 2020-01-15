@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <dots/>
+    <format format="xls"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Dots from './components/Dots.vue'
+import Format from './components/Format.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Dots,
+    Format
   }
 }
 </script>

@@ -1,12 +1,14 @@
 import Vue from "vue"
 import Format from "./Format.vue"
+import Dots from "./Dots.vue"
 
 const Components = {
-    Format
+    Format,
+    Dots
 }
 
 Object.keys(Components).forEach(name => {
-    Vue.component(name, Components[name])
+    Vue.component(`ui-${name}`, Components[name])
 })
 
 export default Components
