@@ -4,7 +4,7 @@
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name clockster ./src/components/index.js",
+    "build": "vue-cli-service build --target lib --name clockster ./src/plugin.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
