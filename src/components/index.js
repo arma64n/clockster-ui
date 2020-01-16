@@ -1,4 +1,3 @@
-import Vue from "vue"
 import Format from "./Format.vue"
 import Dots from "./Dots.vue"
 
