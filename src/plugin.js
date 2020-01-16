@@ -1,11 +1,15 @@
-import * as components from './components'
+import Format from './components/Format'
+import Dots from './components/Dots'
+
+// const Components = {
+//     Format,
+//     Dots
+// }
 
 const ComponentLibrary = {
     install(Vue) {
-        for (const componentName in components) {
-            const component = components[componentName]
-            Vue.component(`clockster-${component.name.toLowerCase()}`, component)
-        }
+        Vue.component('clockster-format', Format)
+        Vue.component('clockster-dots', Dots)
     }
 }
 
