@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'ui-dots',
+    name: 'dots',
     props: {
         large: Boolean
     }
