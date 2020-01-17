@@ -14,8 +14,4 @@ const ComponentLibrary = {
     }
 }
 
-if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(ComponentLibrary)
-}
-
 export default ComponentLibrary

@@ -14,20 +14,6 @@ export default {
             if (this.format == 'jpg' || this.format == 'jpeg' || this.format == 'png') return 'image'
             if (this.format == 'xls' || this.format == 'xlsx') return 'excel'
             return 'word'
-            // switch (this.format) {
-            //     case 'pdf':
-            //         return 'pdf'
-            //     case 'jpg':
-            //     case 'jpeg':
-            //     case 'png':
-            //         return 'image'
-            //     case 'xls':
-            //     case 'xlsx':
-            //         return 'excel'
-            //     case 'doc':
-            //     case 'docx':
-            //         return 'word'
-            // }
         }
     }
 }
