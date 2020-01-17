@@ -8,14 +8,14 @@ const dumb = {
 
 const ComponentLibrary = {
     install(Vue) {
-        Object.values(dumb).forEach(item => {
-            Vue.component(`dumb-${item.toLowerCase()}`, item)
+        Object.keys(dumb).forEach(item => {
+            Vue.component(`dumb-${item.toLowerCase()}`, dumb[item])
         })
     }
 }
 
-export default ComponentLibrary
-
 if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(ComponentLibrary)
 }
+
+export default ComponentLibrary
