@@ -1,12 +1,14 @@
 <template>
-    <div class="app-dots" :class="{'app-dots--large': large}">
-        <div></div><div></div><div></div>
+    <div class="dumb-dots" :class="{'dumb-dots--large': large}">
+        <div class="dumb-dots__item"></div>
+        <div class="dumb-dots__item"></div>
+        <div class="dumb-dots__item"></div>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'dots',
+    name: 'dumb-dots',
     props: {
         large: Boolean
     }
@@ -14,18 +16,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.app-dots {
+.dumb-dots {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     
-    & > div {
+    &__item {
         width: .75rem;
         height: .75rem;
-        background: black;
-        border-radius: 100%;
+        background: var(--text-contrast);
+        border-radius: 50%;
         display: inline-block;
         animation: loader-dots 1.4s infinite ease-in-out both;
 
@@ -39,7 +41,7 @@ export default {
     }
 
     &--large {
-        & > div {
+        &__item {
             width: 1.5rem;
             height: 1.5rem;
         }

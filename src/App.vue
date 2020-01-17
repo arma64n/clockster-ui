@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <dots />
+    <dots large/>
     <format format="xls" />
   </div>
 </template>
