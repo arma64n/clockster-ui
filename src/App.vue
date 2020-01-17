@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Dots from "./components/Dots.vue";
-import Format from "./components/Format.vue";
+import Dots from "./components/dumb/Dots.vue";
+import Format from "./components/dumb/Format.vue";
 
 export default {
   name: "app",

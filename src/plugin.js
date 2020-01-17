@@ -1,15 +1,16 @@
-import Format from './components/Format'
-import Dots from './components/Dots'
+import Format from './components/dumb/Format'
+import Dots from './components/dumb/Dots'
 
-// const Components = {
-//     Format,
-//     Dots
-// }
+const dumb = {
+    Format,
+    Dots
+}
 
 const ComponentLibrary = {
     install(Vue) {
-        Vue.component('clockster-format', Format)
-        Vue.component('clockster-dots', Dots)
+        Object.values(dumb).forEach(item => {
+            Vue.component(`dumb-${item.toLowerCase()}`, item)
+        })
     }
 }
 
