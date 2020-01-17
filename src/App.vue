@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <dots large/>
-    <format format="xls" />
+    <format format="pdf" />
   </div>
 </template>
 
