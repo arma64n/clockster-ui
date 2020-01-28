@@ -1,9 +1,12 @@
 import DumbFormat from './components/dumb/Format'
 import DumbDots from './components/dumb/Dots'
+import DumbActions from './components/dumb/Actions'
+import './assets/styles/ui.scss'
 
 const Dumb = {
     DumbFormat,
-    DumbDots
+    DumbDots,
+    DumbActions
 }
 
 const ComponentLibrary = {

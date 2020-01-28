@@ -2,18 +2,26 @@
   <div id="app">
     <dots large/>
     <format format="pdf" />
+    <actions :options="['download', 'show', 'edit', 'activate', 'deactivate', 'delete']" @delete="showMessage()"/>
   </div>
 </template>
 
 <script>
 import Dots from "./components/dumb/Dots.vue";
 import Format from "./components/dumb/Format.vue";
+import Actions from "./components/dumb/Actions.vue";
 
 export default {
   name: "app",
   components: {
     Dots,
-    Format
+    Format,
+    Actions
+  },
+  methods: {
+    showMessage () {
+      console.log('Hey')
+    }
   }
 };
 </script>
