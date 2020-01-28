@@ -23,7 +23,7 @@ import OnClickOutside from '@/components/dev/OnClickOutside'
 import DropdownMixin from '@/mixins/dropdownMixin'
 
 export default {
-    name: 'app-actions',
+    name: 'dumb-actions',
     mixins: [ DropdownMixin ],
     components: {
         OnClickOutside

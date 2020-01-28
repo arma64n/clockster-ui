@@ -4,7 +4,7 @@
 
 <script>
 export default {
-    name: 'format',
+    name: 'dumb-format',
     props: {
         format: String
     },
