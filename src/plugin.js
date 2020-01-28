@@ -1,4 +1,5 @@
 import './assets/styles/ui.scss'
+import './assets/styles/variables.scss'
 
 const components = require.context( './components', true, /\w+\.vue$/ )
 

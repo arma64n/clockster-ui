@@ -1,23 +1,14 @@
 <template>
   <div id="app">
-    <dots large/>
-    <format format="pdf" />
-    <actions :options="['download', 'show', 'edit', 'activate', 'deactivate', 'delete']" @delete="showMessage()"/>
+    <dumb-format format="pdf"></dumb-format>
+    <smart-one></smart-one>
+    <dumb-dots></dumb-dots>
   </div>
 </template>
 
 <script>
-import Dots from "./components/dumb/Dots.vue";
-import Format from "./components/dumb/Format.vue";
-import Actions from "./components/dumb/Actions.vue";
-
 export default {
   name: "app",
-  components: {
-    Dots,
-    Format,
-    Actions
-  },
   methods: {
     showMessage () {
       console.log('Hey')
@@ -25,14 +16,3 @@ export default {
   }
 };
 </script>
-
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

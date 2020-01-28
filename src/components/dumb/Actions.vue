@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import OnClickOutside from '@/components/dev/OnClickOutside'
+import OnClickOutside from '@/utils/OnClickOutside'
 import DropdownMixin from '@/mixins/dropdownMixin'
 
 export default {

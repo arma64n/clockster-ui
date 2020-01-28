@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './assets/styles/ui.scss'
-import './assets/styles/variables.scss'
-import './plugin'
+
+import Components from './../dist/clockster.common'
+Vue.use(Components)
 
 Vue.config.productionTip = false
 
