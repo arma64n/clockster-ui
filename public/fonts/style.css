@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2xarb2');
+  src:  url('fonts/icomoon.eot?2xarb2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2xarb2') format('truetype'),
+    url('fonts/icomoon.woff?2xarb2') format('woff'),
+    url('fonts/icomoon.svg?2xarb2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-attachment:before {
+  content: "\e949";
+}
+.icon-company:before {
+  content: "\e940";
+}
+.icon-home:before {
+  content: "\e942";
+}
+.icon-today-status-0:before {
+  content: "\e944";
+}
+.icon-today-status-1:before {
+  content: "\e945";
+}
+.icon-today-status-4:before {
+  content: "\e946";
+}
+.icon-today-status-2:before {
+  content: "\e947";
+}
+.icon-today-status-3:before {
+  content: "\e948";
+}
+.icon-face:before {
+  content: "\e941";
+}
+.icon-hand:before {
+  content: "\e943";
+}
+.icon-yinyang:before {
+  content: "\e93d";
+}
+.icon-male:before {
+  content: "\e93e";
+}
+.icon-female:before {
+  content: "\e93f";
+}
+.icon-trash:before {
+  content: "\e93c";
+}
+.icon-excel:before {
+  content: "\e93b";
+}
+.icon-youtube:before {
+  content: "\e93a";
+}
+.icon-id:before {
+  content: "\e936";
+}
+.icon-calendar1:before {
+  content: "\e937";
+}
+.icon-copy:before {
+  content: "\e938";
+}
+.icon-airplane:before {
+  content: "\e939";
+}
+.icon-android:before {
+  content: "\e934";
+}
+.icon-apple:before {
+  content: "\e935";
+}
+.icon-bell:before {
+  content: "\e933";
+}
+.icon-burger:before {
+  content: "\e930";
+}
+.icon-batman:before {
+  content: "\e92f";
+}
+.icon-mobile:before {
+  content: "\e931";
+}
+.icon-frontend:before {
+  content: "\e932";
+}
+.icon-sync:before {
+  content: "\e92e";
+}
+.icon-key:before {
+  content: "\e92d";
+}
+.icon-noeye:before {
+  content: "\e92b";
+}
+.icon-eye:before {
+  content: "\e92c";
+}
+.icon-instagram:before {
+  content: "\e929";
+}
+.icon-facebook:before {
+  content: "\e92a";
+}
+.icon-gift:before {
+  content: "\e928";
+}
+.icon-nextday:before {
+  content: "\e927";
+}
+.icon-edit:before {
+  content: "\e915";
+}
+.icon-file:before {
+  content: "\e926";
+}
+.icon-position:before {
+  content: "\e91e";
+}
+.icon-department:before {
+  content: "\e923";
+}
+.icon-time:before {
+  content: "\e900";
+}
+.icon-back:before {
+  content: "\e901";
+}
+.icon-next:before {
+  content: "\e902";
+}
+.icon-down:before {
+  content: "\e903";
+}
+.icon-up:before {
+  content: "\e904";
+}
+.icon-dashboard:before {
+  content: "\e905";
+}
+.icon-calendar:before {
+  content: "\e906";
+}
+.icon-schedules:before {
+  content: "\e907";
+}
+.icon-call:before {
+  content: "\e908";
+}
+.icon-check-round:before {
+  content: "\e909";
+}
+.icon-close:before {
+  content: "\e90a";
+}
+.icon-close-round:before {
+  content: "\e90b";
+}
+.icon-check:before {
+  content: "\e90c";
+}
+.icon-clock-in:before {
+  content: "\e90d";
+}
+.icon-clock-out:before {
+  content: "\e90e";
+}
+.icon-tooltip:before {
+  content: "\e90f";
+}
+.icon-sort:before {
+  content: "\e910";
+}
+.icon-fingerprints:before {
+  content: "\e911";
+}
+.icon-birthday:before {
+  content: "\e912";
+}
+.icon-info:before {
+  content: "\e913";
+}
+.icon-email:before {
+  content: "\e914";
+}
+.icon-location:before {
+  content: "\e916";
+}
+.icon-add:before {
+  content: "\e917";
+}
+.icon-reports:before {
+  content: "\e918";
+}
+.icon-search:before {
+  content: "\e919";
+}
+.icon-settings:before {
+  content: "\e91a";
+}
+.icon-upload:before {
+  content: "\e91b";
+}
+.icon-logout:before {
+  content: "\e91c";
+}
+.icon-device:before {
+  content: "\e91d";
+}
+.icon-attendance:before {
+  content: "\e91f";
+}
+.icon-categories:before {
+  content: "\e920";
+}
+.icon-download:before {
+  content: "\e921";
+}
+.icon-employees:before {
+  content: "\e922";
+}
+.icon-error:before {
+  content: "\e924";
+}
+.icon-network:before {
+  content: "\e925";
+}

@@ -1,0 +1,36 @@
+@import "variables";
+@import "ui";
+
+html, body, #app {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: var(--bg-main);
+    font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+    color: var(--text-contrast);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+button {
+    font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-gray);
+    border-radius: var(--radius);
+}
